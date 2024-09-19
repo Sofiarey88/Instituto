@@ -118,9 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="UrlApi" xml:space="preserve">
-    <value>https://datainstituto.azurewebsites.net/api/</value>
+    <value>https://datainstitutosofi-g6dvb6bne7gperca.eastus-01.azurewebsites.net/api/</value>
   </data>
   <data name="client_id" xml:space="preserve">
-    <value>243005933117-9jrpnqa9f296itha7jlaa3nmh23et4vu</value>
+    <value>1034708410824-rhiueoaper80k5f74kclf0f9epagcf6m</value>
+  </data>
+  <data name="apikeyfirebase" xml:space="preserve">
+    <value>AIzaSyBdnXYE9IqR13-ztt8xzOiS2V_mOcV63vI</value>
+  </data>
+  <data name="authdomainfirebase" xml:space="preserve">
+    <value>institutooauth.firebaseapp.com</value>
   </data>
 </root>

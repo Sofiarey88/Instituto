@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.isp20.institutoapp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.isp20.institutosofi">
 	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="InstitutoApp">
-		<activity android:name="com.microsoft.identity.client.BrowserTabActivity" android:exported="true">
+		<!--
+		<<activity android:name="com.microsoft.identity.client.BrowserTabActivity" android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="institutoapp.isp20.com" android:host="oauth2redirect" />
+				<data android:scheme="com.isp20.institutosofi" android:host="oauth2redirect" />
 			</intent-filter>
 		</activity>
-		
+		-->
 		<activity android:name=".WebAuthenticationCallbackActivity"
 			  android:exported="true"
 			  android:noHistory="true">
@@ -17,7 +18,7 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="com.googleusercontent.apps.243005933117-9jrpnqa9f296itha7jlaa3nmh23et4vu"
+				<data android:scheme="com.googleusercontent.apps.1034708410824-rhiueoaper80k5f74kclf0f9epagcf6m"
 					  android:host="oauth2redirect" />
 			</intent-filter>
 		</activity>

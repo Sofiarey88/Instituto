@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "243005933117",
-    "project_id": "instituto20-435114",
-    "storage_bucket": "instituto20-435114.appspot.com"
+    "project_number": "1034708410824",
+    "project_id": "institutooauth",
+    "storage_bucket": "institutooauth.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:243005933117:android:9ae2838fd5d0aab5008c54",
+        "mobilesdk_app_id": "1:1034708410824:android:89df9b12acb130c5d620fd",
         "android_client_info": {
-          "package_name": "com.isp20.institutoapp"
+          "package_name": "com.isp20.institutosofi"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1034708410824-rhiueoaper80k5f74kclf0f9epagcf6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isp20.institutosofi",
+            "certificate_hash": "8a699607c6317a080331ca898fb86e15a86eb8fe"
+          }
+        },
+        {
+          "client_id": "1034708410824-opfob9hdoftl0tbsdoe78an9i959ugba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDLPkmzvqIWwmhKQkNapfWd-x-_0WCvudk"
+          "current_key": "AIzaSyBdnXYE9IqR13-ztt8xzOiS2V_mOcV63vI"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034708410824-opfob9hdoftl0tbsdoe78an9i959ugba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
