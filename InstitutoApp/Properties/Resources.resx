@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="UrlApi" xml:space="preserve">
+  <data name="UrlApiRemota" xml:space="preserve">
     <value>https://datainstitutosofi-g6dvb6bne7gperca.eastus-01.azurewebsites.net/api/</value>
   </data>
   <data name="client_id" xml:space="preserve">
@@ -128,5 +128,11 @@
   </data>
   <data name="authdomainfirebase" xml:space="preserve">
     <value>institutooauth.firebaseapp.com</value>
+  </data>
+  <data name="remoto" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="UrlLApiLocal" xml:space="preserve">
+    <value>https://localhost:7202/api</value>
   </data>
 </root>

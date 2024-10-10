@@ -63,9 +63,9 @@ namespace InstitutoServices.Properties {
         /// <summary>
         ///   Busca una cadena traducida similar a https://datainstitutosofi-g6dvb6bne7gperca.eastus-01.azurewebsites.net/api/.
         /// </summary>
-        internal static string UrlApi {
+        internal static string UrlApiRemota {
             get {
-                return ResourceManager.GetString("UrlApi", resourceCulture);
+                return ResourceManager.GetString("UrlApiRemota", resourceCulture);
             }
         }
     }
