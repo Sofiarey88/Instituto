@@ -139,6 +139,40 @@
             dateTimeHasta.TabIndex = 18;
             dateTimeHasta.Leave += dateTimeHasta_Leave;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(186, 71);
+            label2.Name = "label2";
+            label2.Size = new Size(54, 20);
+            label2.TabIndex = 15;
+            label2.Text = "Desde:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(186, 157);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 16;
+            label3.Text = "Hasta:";
+            // 
+            // dateTimeDesde
+            // 
+            dateTimeDesde.Format = DateTimePickerFormat.Time;
+            dateTimeDesde.Location = new Point(306, 71);
+            dateTimeDesde.Name = "dateTimeDesde";
+            dateTimeDesde.Size = new Size(145, 27);
+            dateTimeDesde.TabIndex = 17;
+            // 
+            // dateTimeHasta
+            // 
+            dateTimeHasta.Format = DateTimePickerFormat.Time;
+            dateTimeHasta.Location = new Point(306, 150);
+            dateTimeHasta.Name = "dateTimeHasta";
+            dateTimeHasta.Size = new Size(145, 27);
+            dateTimeHasta.TabIndex = 18;
+            // 
             // AgregarEditarHoraView
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);

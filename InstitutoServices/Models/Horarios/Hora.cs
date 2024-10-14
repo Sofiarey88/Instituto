@@ -16,7 +16,10 @@ namespace InstitutoServices.Models.Horarios
                 var recreo = EsRecreo ? "Recreo " : "";
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 844d8020a62ae6526c3ea7ea20e9de7882a7576f
                 return $"{recreo}{Desde.Hour} : {Desde.Minute} - {Hasta.Hour} : {Hasta.Minute}"; }
         }
 
